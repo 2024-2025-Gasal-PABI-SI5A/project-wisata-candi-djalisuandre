@@ -10,9 +10,9 @@ class ProfileScreen extends StatefulWidget {
 class _ProfileScreenState extends State<ProfileScreen> {
   // Deklarasi variabel yang dibutuhkan
   bool isSignedIn = false;
-  String fullName = 'Eric Candra';
-  String userName = 'Eric';
-  int favoriteCandiCount = 0;
+  String fullName = 'Djali Suandre';
+  String userName = 'andre';
+  int favoriteCandiCount = 35;
 
   // Implementasi fungsi sign in
   void SignIn() {
@@ -36,7 +36,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           Container(
             height: 200,
             width: double.infinity,
-            color: Colors.deepPurple,
+            color: const Color.fromARGB(255, 238, 115, 230),
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -76,7 +76,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
                 ),
                 // Profile info / info profil
-                // baris 1 pengguna
+                // Pengguna
                 const SizedBox(
                   height: 20,
                 ),
@@ -115,7 +115,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     ),
                   ],
                 ),
-                // baris 2 Nama
+                // Nama
                 const SizedBox(
                   height: 4,
                 ),
